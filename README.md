@@ -1,4 +1,4 @@
-#Apple Grace Gesalan Portfolio
+# Apple Grace Gesalan Portfolio
 
 Welcome to my portfolio website! This will serve as a window into my creative world, offering insights into my background,  creative journey, and showcasing my best work. The website consists of three pages:
 
@@ -15,15 +15,17 @@ Additionally, I maintain a Print Shop where you can explore and purchase some of
 
 Thank you for visiting my portfolio website, and I hope you enjoy your exploration. 
 
-##Contributing
+## Contributing
 1. Fork it!
 2. Create your feature branch: git checkout -b my-new-feature
 3. Commit your changes: git commit -am 'Add some feature'
 4. Push to the branch: git push origin my-new-feature
 5. Submit a pull request :D
 
-##Credits
+## Credits
+
 Apple Grace Gesalan
 
-##License
+## License
+
 MIT
