@@ -1,0 +1,11 @@
+.grid-con {
+    #main-header {
+        nav {
+            z-index: -1;
+        }
+
+        #logo, .box2 {
+            z-index: 1;
+        }
+    }
+}
