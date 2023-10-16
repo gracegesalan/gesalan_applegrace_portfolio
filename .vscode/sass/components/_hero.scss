@@ -1,0 +1,20 @@
+@use '../abstracts' as a;
+
+#hero-con h3 {
+   font-size: a.$mobile-heading-font-size;
+}
+
+@media screen and (min-width: 768px) {
+    #hero-con h3 {
+        font-size: a.$tablet-heading-font-size;
+    }
+  
+ }
+
+ 
+@media screen and (min-width: 768px) {
+    #hero-con h3 {
+        font-size: a.$tablet-heading-font-size;
+    }
+  
+ }
