@@ -4,17 +4,70 @@
    font-size: a.$mobile-heading-font-size;
 }
 
+
+#position {
+    margin-top: 70px;
+    height: 146px;
+}
+
+
+
+#hero-con h3 {
+    margin-top: 40px;
+}
+
+#caption {
+    height: 137px;
+    margin-top: 20px;
+} 
+
+@media screen and (min-width: 768px) {
+    #position {
+        height: 189px;
+    }
+    
+    #caption {
+        height: 65px;
+        margin-top: 193px;
+    }
+
+    #download {
+        height: 60px;
+    }
+
+    #meeting {
+        height: 60px;
+
 @media screen and (min-width: 768px) {
     #hero-con h3 {
         font-size: a.$tablet-heading-font-size;
+
     }
   
  }
 
  
+@media screen and (min-width: 1920px) {
+   #position {
+    height: 406px;
+   }
+   
+    #caption {
+    height: 161px;
+    margin-top: 315px;
+   }
+
+   #download {
+    height: 62px;
+   }
+
+   #meeting {
+    height: 62px;
+   }
+=======
 @media screen and (min-width: 768px) {
     #hero-con h3 {
         font-size: a.$tablet-heading-font-size;
     }
+
   
- }

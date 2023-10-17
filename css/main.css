@@ -1,9 +1,11 @@
+
 @font-face {
   font-family: cantarellregular;
   font-weight: normal;
   font-style: normal;
   src: url("../fonts/cantarell_regular-webfont.woff") format("woff"), url("../fonts/cantarell_regular-webfont.woff2") format("woff2");
 }
+
 body {
   font-family: helvetica, arial, sans-serif;
 }
@@ -20,6 +22,7 @@ p {
   margin-bottom: 28px;
 }
 
+
 #main-header {
   background-color: #9a9a9a;
   height: 76px;
@@ -27,6 +30,20 @@ p {
 #main-header #logo {
   height: 48px;
 }
+
+#main-header #name {
+  display: none;
+}
+#main-header #portfolionav {
+  display: none;
+}
+#main-header #contactnav {
+  display: none;
+}
+#main-header #burger {
+  height: 33px;
+  margin-top: 15px;
+
 #main-header #main-nav {
   display: none;
 }
@@ -42,6 +59,7 @@ p {
 }
 #main-header #main-nav ul li:last-child {
   margin-right: 0px;
+
 }
 #main-header #main-nav a {
   color: #FFA458;
@@ -56,9 +74,267 @@ p {
     margin-left: 0px;
     margin-right: 0px;
   }
+  #main-header #name {
+    display: block;
+    height: 18px;
+    margin-top: 15px;
+  }
+  #main-header #portfolionav {
+    display: block;
+    height: 13px;
+    margin-top: 15px;
+  }
+  #main-header #contactnav {
+    display: block;
+    height: 13px;
+    margin-top: 15px;
+  }
+  #main-header #burger {
+    display: none;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #burger {
+    display: none;
+  }
+  #main-header {
+    height: 113px;
+  }
+  #main-header #logo {
+    height: 72px;
+    margin-top: 20px;
+  }
+  #main-header #name {
+    height: 47px;
+    margin-top: 30px;
+  }
+  #main-header #portfolionav {
+    height: 40px;
+    margin-top: 35px;
+  }
+  #main-header #contactnav {
+    height: 40px;
+    margin-top: 35px;
+  }
+
 }
 #hero-con h3 {
   font-size: 25px;
+}
+
+
+#position {
+  margin-top: 70px;
+  height: 146px;
+}
+
+#hero-con h3 {
+  margin-top: 40px;
+}
+
+#caption {
+  height: 137px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  #position {
+    height: 189px;
+  }
+  #caption {
+    height: 65px;
+    margin-top: 193px;
+  }
+  #download {
+    height: 60px;
+  }
+  #meeting {
+    height: 60px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #position {
+    height: 406px;
+  }
+  #caption {
+    height: 161px;
+    margin-top: 315px;
+  }
+  #download {
+    height: 62px;
+  }
+  #meeting {
+    height: 62px;
+  }
+}
+#gallery {
+  background-color: #9a9a9a;
+}
+
+#vault {
+  height: 95px;
+}
+
+#gal1 {
+  height: 288px;
+}
+
+#text1 {
+  height: 39px;
+  margin-top: 200px;
+}
+
+#gal2 {
+  height: 288px;
+}
+
+#text2 {
+  height: 39px;
+  margin-top: 200px;
+}
+
+#gal3 {
+  height: 288px;
+}
+
+#text3 {
+  height: 39px;
+  margin-top: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  #vault {
+    height: 40px;
+  }
+  #gal1 {
+    height: 252px;
+  }
+  #text1 {
+    height: 25px;
+    margin-top: 170px;
+  }
+  #gal2 {
+    height: 252px;
+  }
+  #text2 {
+    height: 25px;
+    margin-top: 170px;
+  }
+  #gal3 {
+    height: 252px;
+  }
+  #text3 {
+    height: 25px;
+    margin-top: 170px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #gallery {
+    background-color: #9a9a9a;
+  }
+  #vault {
+    height: 100px;
+  }
+  #gal1 {
+    height: 630px;
+  }
+  #text1 {
+    height: 63px;
+    margin-top: 500px;
+  }
+  #gal2 {
+    height: 630px;
+  }
+  #text2 {
+    height: 63px;
+    margin-top: 500px;
+  }
+  #gal3 {
+    height: 630px;
+  }
+  #text3 {
+    height: 63px;
+    margin-top: 500px;
+  }
+}
+#slogan {
+  height: 370px;
+}
+
+#dedication {
+  height: 256px;
+  margin-top: 55px;
+}
+
+@media screen and (min-width: 768px) {
+  #slogan {
+    height: 82px;
+  }
+  #dedication {
+    height: 25px;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #slogan {
+    height: 82px;
+  }
+  #dedication {
+    height: 63px;
+    margin-top: 12px;
+  }
+}
+#insights {
+  background-color: #9a9a9a;
+}
+
+#about {
+  height: 120px;
+}
+
+#myphoto {
+  height: 526px;
+}
+
+#mycap {
+  height: 500px;
+}
+
+#socials {
+  height: 145px;
+}
+
+#icons {
+  height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  #myphoto {
+    height: 344px;
+  }
+  #mycap {
+    height: 344px;
+  }
+  #socials {
+    height: 32px;
+  }
+  #icons {
+    height: 40px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  #myphoto {
+    height: 777px;
+  }
+  #mycap {
+    height: 777px;
+  }
+  #socials {
+    height: 81px;
+  }
+  #icons {
+    height: 100px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -78,3 +354,4 @@ p {
 #founders section {
   margin-bottom: 40px;
 }
+
