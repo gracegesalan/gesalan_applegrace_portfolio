@@ -1,0 +1,79 @@
+@use '../abstracts' as a;
+
+#insights {
+    
+    background-color: a.$gray-color;
+}
+
+#about {
+    height: 120px;
+    margin-top: 20px;
+}
+
+#myphoto {
+    height: 526px;
+}
+
+#mycap {
+    height: 500px;
+}
+
+#socials {
+    height: 145px;
+}
+
+#icons {
+    height: 125px;
+}
+
+@media screen and (min-width:768px) {
+
+    #about {
+        height: 40px;
+        margin-top: 50px;
+    }
+
+    #myphoto {
+        height: 311px;
+        margin-top: 20px;
+    }
+
+    #mycap {
+        height: 311px;
+        margin-top: 20px;
+    }
+
+    #socials {
+        height: 32px;
+        margin-top: 40px;
+    }
+
+    #icons {
+        height: 40px;
+    }
+
+}
+
+@media screen and (min-width:1920px) {
+
+    #about {
+        height: 100px;
+    }
+
+    #myphoto {
+        height: 777px;
+    }
+
+    #mycap {
+        height: 777px;
+    }
+
+    #socials {
+        height: 81px;
+    }
+
+    #icons {
+        height: 100px;
+    }
+
+}
