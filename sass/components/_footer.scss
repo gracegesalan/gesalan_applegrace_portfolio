@@ -1,1 +1,48 @@
 @use '../abstracts' as a;
+
+#footerlogo {
+    height: 100px;
+    margin-top: 75px;
+}
+
+#footername {
+    height: 39px;
+}
+
+#footerrights {
+    height: 47px;
+}
+
+@media screen and (min-width:768px) {
+
+    #footerlogo {
+        height: 59px;
+        margin-top: 90px;
+    }
+
+    #footername {
+        height: 22px;
+    }
+
+    #footerrights {
+        height: 14px;
+    }
+
+}
+
+@media screen and (min-width:1920px) {
+
+    #footerlogo {
+        height: 143px;
+        margin-top: 200px;
+    }
+
+    #footername {
+        height: 54px;
+    }
+
+    #footerrights {
+        height: 26px;
+    }
+
+}
