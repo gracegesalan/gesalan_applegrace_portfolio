@@ -1,2 +1,37 @@
 @use '../abstracts' as a;
 
+
+
+#main-header {
+    background-color: a.$gray-color;
+    height: 76px;
+}
+
+#main-header #logo {
+    height: 48px;
+    margin-top: 10px;
+}
+
+ #name {
+    display: none;
+}
+
+#main-header #portfolionav {
+    display: none;
+}
+
+#main-header #contactnav {
+    display: none;
+}
+
+#main-header #burger {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+
+}
+
+@media screen and (min-width:1920px) {
+
+}
