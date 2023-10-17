@@ -1,11 +1,62 @@
 @use '../abstracts' as a;
 
+#position {
+    height: 146px;
+    margin-top: 60px;
+}
 
+#caption {
+    height: 137px;
+    margin-top: 20px;
+}
+
+#download {
+    height: 32px;
+}
+
+#meeting {
+    height: 32px;
+}
 
 @media screen and (min-width:768px) {
+
+    #position {
+        height: 189px;
+        margin-top: 80px;
+    }
+
+    #caption {
+        height: 65px;
+        margin-top: 200px;
+    }
+
+    #download {
+        height: 24px;
+    }
+
+    #meeting {
+        height: 24px;
+    }
 
 }
 
 @media screen and (min-width:1920px) {
+    #position {
+        height: 406px;
+        margin-top: 130px;
+    }
+
+    #caption {
+        height: 161px;
+        margin-top: 375px;
+    }
+
+    #download {
+        height: 62px;
+    }
+
+    #meeting {
+        height: 62px;
+    }
 
 }
