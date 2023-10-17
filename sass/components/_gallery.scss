@@ -1,0 +1,109 @@
+@use '../abstracts' as a;
+
+#gallery {
+    background-color: a.$gray-color;
+}
+
+#vault {
+    height: 95px;
+}
+
+#gal1 {
+    height: 288px;
+}
+
+#text1 {
+    height: 39px;
+    margin-top: 200px;
+}
+
+#gal2 {
+    height: 288px;
+}
+
+#text2 {
+    height: 39px;
+    margin-top: 200px;
+}
+
+#gal3 {
+    height: 288px;
+}
+
+#text3 {
+    height: 39px;
+    margin-top: 200px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    #vault {
+        height: 40px;
+    }
+
+    #gal1 {
+        height: 252px;
+    }
+
+    #text1 {
+        height: 25px;
+        margin-top: 170px;
+    }
+
+    #gal2 {
+        height: 252px;
+    }
+
+    #text2 {
+        height: 25px;
+        margin-top: 170px;
+    }
+
+    #gal3 {
+        height: 252px;
+    }
+
+    #text3 {
+        height: 25px;
+        margin-top: 170px;
+    }
+}
+
+
+@media screen and (min-width: 1920px) {
+    #gallery {
+        background-color: a.$gray-color;
+    }
+    
+    #vault {
+        height: 100px;
+    }
+
+    #gal1 {
+        height: 630px;
+    }
+
+    #text1 {
+        height: 63px;
+        margin-top: 500px;
+    }
+
+    #gal2 {
+        height: 630px;
+    }
+
+    #text2 {
+        height: 63px;
+        margin-top: 500px;
+    }
+
+    #gal3 {
+        height: 630px;
+    }
+
+    #text3 {
+        height: 63px;
+        margin-top: 500px;
+    }
+}
