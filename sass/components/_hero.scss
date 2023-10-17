@@ -37,6 +37,11 @@
 
     #meeting {
         height: 60px;
+
+@media screen and (min-width: 768px) {
+    #hero-con h3 {
+        font-size: a.$tablet-heading-font-size;
+
     }
   
  }
@@ -59,5 +64,10 @@
    #meeting {
     height: 62px;
    }
+=======
+@media screen and (min-width: 768px) {
+    #hero-con h3 {
+        font-size: a.$tablet-heading-font-size;
+    }
+
   
- }
