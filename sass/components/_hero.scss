@@ -10,12 +10,27 @@
     margin-top: 20px;
 }
 
+#hero-con h3 {
+    font-size: 40px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+
+#hero-con p {
+    font-size: 18px;
+    text-align: right;
+    line-height: 1;
+}
+
 #download {
     height: 32px;
+    font-size: 13px;
 }
 
 #meeting {
     height: 32px;
+    font-size: 13px;
 }
 
 @media screen and (min-width:768px) {
@@ -30,12 +45,27 @@
         margin-top: 200px;
     }
 
+    #hero-con h3 {
+        font-size: 50px;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.5;
+    }
+
+    #hero-con p {
+        font-size: 13px;
+        text-align: right;
+        line-height: 1;
+    }
+
     #download {
         height: 24px;
+        font-size: 13px;
     }
 
     #meeting {
         height: 24px;
+        font-size: 13px;
     }
 
 }
@@ -51,12 +81,27 @@
         margin-top: 375px;
     }
 
+    #hero-con h3 {
+        font-size: 125px;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.5;
+    }
+
+    #hero-con p {
+        font-size: 30px;
+        text-align: right;
+        line-height: 1.5;
+    }
+
     #download {
         height: 62px;
+        font-size: 30px;
     }
 
     #meeting {
         height: 62px;
+        font-size: 30px;
     }
 
 }
