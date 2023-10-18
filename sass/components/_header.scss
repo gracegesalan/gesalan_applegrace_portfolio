@@ -44,16 +44,26 @@
         margin-top: 20px;
     }
 
-    #main-header #portfolionav {
+
+    #main-header #portfolionav  {
         display: block;
-        height: 13px;
-        margin-top: 20px;
+        font-size: 18px;
+        margin-top: 25px;
+        font-family: 'KoHo';
+        color: white;
+    }
+
+    #portfolionav a {
+        text-decoration: none;
+        color: white;
     }
 
     #main-header #contactnav {
         display: block;
-        height: 13px;
-        margin-top: 20px;
+        font-size: 18px;
+        margin-top: 25px;
+        font-family: 'KoHo';
+        color: white;
     }
 
     #burger {
@@ -73,22 +83,46 @@
         margin-top: 20px;
     }
 
-    #main-header #name {
-        display: block;
-        height: 47px;
-        margin-top: 30px;
+    // #main-header #name {
+    //     font-family: 'Raleway';
+    //     margin-top: 20px;
+    // }
+
+    #main-header h2 {
+        margin-top: 20px;
     }
 
-    #main-header #portfolionav {
+    #main-header #portfolionav  {
         display: block;
-        height: 33px;
-        margin-top: 33px;
+        font-size: 30px;
+        margin-top: 45px;
+        font-family: 'KoHo';
+        color: white;
     }
 
     #main-header #contactnav {
         display: block;
-        height: 33px;
-        margin-top: 33px;
+        font-size: 30px;
+        margin-top: 45px;
+        font-family: 'KoHo';
+        color: white;
+    }
+
+    // #main-header #portfolionav {
+    //     display: block;
+    //     height: 33px;
+    //     margin-top: 33px;
+    // }
+
+    // #main-header #contactnav {
+    //     display: block;
+    //     height: 33px;
+    //     margin-top: 33px;
+    // }
+
+    #portfolionav a {
+        text-decoration: none;
+        color: white;
     }
 
     #burger {

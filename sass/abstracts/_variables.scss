@@ -1,11 +1,13 @@
 @use 'fonts';
 
-$primary-color: #FFA458;
-$secondary-color: #BA3B0A;
-$accent-color: #BA3B0A;
-$body-text-color: #333;
-$heading-font-family: 'cantarellregular', helvetica, arial;
-$body-font-family: helvetica,arial, sans-serif;
+$primary-color: rgb(255, 186, 186);
+$secondary-color: white;
+$accent-color: #ffffff;
+$body-text-color: #000000;
+
+$heading-font-family: 'Montserrat', helvetica, arial;
+$body-font-family: 'KoHo',arial, sans-serif;
+
 $base-font-size: 18px;
 $mobile-heading-font-size: 25px;
 $tablet-heading-font-size: 35px;
