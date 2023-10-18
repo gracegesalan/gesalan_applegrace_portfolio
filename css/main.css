@@ -421,14 +421,29 @@ p {
 
 #myphoto {
   height: 526px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 #mycap {
   height: 500px;
 }
 
+#insights p {
+  font-size: 15px;
+  text-align: left;
+  padding: 0;
+  line-height: 1.5;
+}
+
 #socials {
-  height: 145px;
+  height: 80px;
+  font-family: "Yeseva One", serif;
+  font-size: 30px;
+  padding: 0;
 }
 
 #icons {
@@ -446,17 +461,37 @@ p {
   #myphoto {
     height: 311px;
     margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
   }
   #mycap {
     height: 311px;
     margin-top: 20px;
   }
+  #insights p {
+    font-size: 15px;
+    text-align: left;
+    padding: 0;
+    line-height: 1;
+  }
   #socials {
     height: 32px;
     margin-top: 40px;
+    font-family: "Yeseva One", serif;
+    font-size: 30px;
+    padding: 0;
   }
   #icons {
-    height: 40px;
+    height: 65px;
+    display: inline;
+    justify-content: space-between;
+  }
+  #icons img {
+    height: 30px;
+    vertical-align: middle;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -491,5 +526,7 @@ p {
   }
   #icons {
     height: 100px;
+    display: flex;
+    justify-content: space-between;
   }
 }
