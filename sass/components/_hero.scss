@@ -43,6 +43,7 @@
     #caption {
         height: 65px;
         margin-top: 200px;
+        
     }
 
     #hero-con h3 {
@@ -50,22 +51,26 @@
         text-align: left;
         font-family: 'Raleway', sans-serif;
         line-height: 1.5;
+       
     }
 
     #hero-con p {
         font-size: 13px;
         text-align: right;
         line-height: 1;
+        padding: 0;
     }
 
     #download {
         height: 24px;
         font-size: 13px;
+        padding: 0;
     }
 
     #meeting {
         height: 24px;
         font-size: 13px;
+        padding: 0;
     }
 
 }
@@ -73,12 +78,12 @@
 @media screen and (min-width:1920px) {
     #position {
         height: 406px;
-        margin-top: 130px;
+        margin-top: 250px;
     }
 
     #caption {
         height: 161px;
-        margin-top: 375px;
+        margin-top: 494px;
     }
 
     #hero-con h3 {
@@ -97,11 +102,13 @@
     #download {
         height: 62px;
         font-size: 30px;
+        padding: 0;
     }
 
     #meeting {
         height: 62px;
         font-size: 30px;
+        padding: 0;
     }
 
 }
