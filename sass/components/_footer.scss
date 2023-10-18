@@ -3,15 +3,24 @@
 #footerlogo {
     height: 100px;
     margin-top: 75px;
-   
+    font-size: 20px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
 }
 
 #footername {
     height: 39px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 0;
 }
 
 #footerrights {
-    height: 47px;
+    height: 85px;
+    font-size: 20px;
+    padding: 0;
 }
 
 @media screen and (min-width:768px) {
@@ -19,14 +28,24 @@
     #footerlogo {
         height: 59px;
         margin-top: 90px;
+        font-size: 20px;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
     }
 
     #footername {
-        height: 22px;
+        height: 43px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        padding: 0;
     }
 
     #footerrights {
-        height: 14px;
+        height: 28px;
+        font-size: 20px;
+        padding: 0;
     }
 
 }
@@ -36,15 +55,24 @@
     #footerlogo {
         height: 143px;
         margin-top: 200px;
-       
+       font-size: 40px;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
     }
 
     #footername {
         height: 54px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        padding: 0;
     }
 
     #footerrights {
         height: 26px;
+        font-size: 20px;
+        padding: 0;
     }
 
 }
