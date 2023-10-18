@@ -5,13 +5,13 @@
   src: url("../fonts/cantarell_regular-webfont.woff") format("woff"), url("../fonts/cantarell_regular-webfont.woff2") format("woff2");
 }
 body {
-  font-family: helvetica, arial, sans-serif;
+  font-family: "KoHo", arial, sans-serif;
 }
 
 h2 {
-  font-family: "cantarellregular", helvetica, arial;
+  font-family: "Montserrat", helvetica, arial;
   font-size: 28px;
-  color: #BA3B0A;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
@@ -59,13 +59,21 @@ p {
   }
   #main-header #portfolionav {
     display: block;
-    height: 13px;
-    margin-top: 20px;
+    font-size: 18px;
+    margin-top: 25px;
+    font-family: "KoHo";
+    color: white;
+  }
+  #portfolionav a {
+    text-decoration: none;
+    color: white;
   }
   #main-header #contactnav {
     display: block;
-    height: 13px;
-    margin-top: 20px;
+    font-size: 18px;
+    margin-top: 25px;
+    font-family: "KoHo";
+    color: white;
   }
   #burger {
     display: none;
@@ -79,20 +87,26 @@ p {
     height: 72px;
     margin-top: 20px;
   }
-  #main-header #name {
-    display: block;
-    height: 47px;
-    margin-top: 30px;
+  #main-header h2 {
+    margin-top: 20px;
   }
   #main-header #portfolionav {
     display: block;
-    height: 33px;
-    margin-top: 33px;
+    font-size: 30px;
+    margin-top: 45px;
+    font-family: "KoHo";
+    color: white;
   }
   #main-header #contactnav {
     display: block;
-    height: 33px;
-    margin-top: 33px;
+    font-size: 30px;
+    margin-top: 45px;
+    font-family: "KoHo";
+    color: white;
+  }
+  #portfolionav a {
+    text-decoration: none;
+    color: white;
   }
   #burger {
     display: none;
@@ -354,10 +368,10 @@ p {
     height: 100px;
   }
   #myphoto {
-    height: 777px;
+    height: 600px;
   }
   #mycap {
-    height: 777px;
+    height: 600px;
   }
   #socials {
     height: 81px;

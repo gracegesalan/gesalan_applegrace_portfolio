@@ -1,24 +1,27 @@
-// function expression
+(() => {
 
-let anonFunction = function () {
-    console.log('anon function called');
+gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollToPlugin);
+
+const navLinks = document.querySelectorAll("#main-header #portfolionav p a");
+
+function scrollLink(e) {
+    e.preventDefault();
+    console.log(e.currentTarget.hash);
+    let selectedLink = e.currentTarget.hash;
+    gsap.to(window, {duration: 1, scrollTo:{y:`${selectedLink}`, offsetY:100 }});
 }
 
-anotherFunction();
+gsap.to("#slogan", 3,
+{scrollTrigger:{
+    toggleActions: "play pause resume reset"
+}, x:100, ease: Bounce.easeOut
+})
 
-let anonFunction2 = function() {
-    console.log('anon2 function called');
-}();
+navLinks.forEach((link) => {
+    link.addEventListener("click", scrollLink);
+})
 
-// IIFE regular syntax
-(function() {
-    console.log('IIFE called');
-    const userName = "Marco";
-})();
 
-console.log(userName);
 
-// arrow syntax
-(()=> {
-    console.log('arrow iife called');
 })();
