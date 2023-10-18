@@ -8,6 +8,9 @@
 #about {
     height: 120px;
     margin-top: 20px;
+    font-family: 'Ovo', serif;
+    font-size: 50px;
+    padding: 0;
 }
 
 #myphoto {
@@ -31,6 +34,9 @@
     #about {
         height: 40px;
         margin-top: 50px;
+        font-family: 'Ovo', serif;
+        font-size: 40px;
+        padding: 0;
     }
 
     #myphoto {
@@ -58,18 +64,36 @@
 
     #about {
         height: 100px;
+        font-family: 'Ovo', serif;
+        font-size: 90px;
+        padding: 0;
     }
 
     #myphoto {
         height: 600px;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
     }
 
     #mycap {
         height: 600px;
     }
 
+    #insights p {
+        font-size: 30px;
+        text-align: left;
+        padding: 0;
+        line-height: 1.5;
+    }
+
     #socials {
         height: 81px;
+        font-family: 'Yeseva One', serif;
+        font-size: 80px;
+        padding: 0;
     }
 
     #icons {

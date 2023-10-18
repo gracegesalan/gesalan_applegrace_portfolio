@@ -201,24 +201,27 @@ p {
     font-size: 13px;
     text-align: right;
     line-height: 1;
+    padding: 0;
   }
   #download {
     height: 24px;
     font-size: 13px;
+    padding: 0;
   }
   #meeting {
     height: 24px;
     font-size: 13px;
+    padding: 0;
   }
 }
 @media screen and (min-width: 1920px) {
   #position {
     height: 406px;
-    margin-top: 130px;
+    margin-top: 250px;
   }
   #caption {
     height: 161px;
-    margin-top: 375px;
+    margin-top: 494px;
   }
   #hero-con h3 {
     font-size: 125px;
@@ -234,10 +237,12 @@ p {
   #download {
     height: 62px;
     font-size: 30px;
+    padding: 0;
   }
   #meeting {
     height: 62px;
     font-size: 30px;
+    padding: 0;
   }
 }
 #gallery {
@@ -246,8 +251,11 @@ p {
 }
 
 #vault {
-  height: 95px;
+  height: 55px;
   margin-top: 40px;
+  font-size: 40px;
+  font-family: "Ovo", serif;
+  padding: 0;
 }
 
 #gal1 {
@@ -257,6 +265,9 @@ p {
 #text1 {
   height: 40px;
   margin-top: 200px;
+  font-size: 25px;
+  padding: 0;
+  font-family: "Yeseva One", serif;
 }
 
 #gal2 {
@@ -266,6 +277,9 @@ p {
 #text2 {
   height: 40px;
   margin-top: 200px;
+  font-size: 20px;
+  padding: 0;
+  font-family: "Yeseva One", serif;
 }
 
 #gal3 {
@@ -275,6 +289,9 @@ p {
 #text3 {
   height: 40px;
   margin-top: 200px;
+  font-size: 25px;
+  padding: 0;
+  font-family: "Yeseva One", serif;
 }
 
 @media screen and (min-width: 768px) {
@@ -283,6 +300,9 @@ p {
   }
   #vault {
     height: 40px;
+    font-size: 40px;
+    font-family: "Ovo", serif;
+    padding: 0;
   }
   #gal1 {
     height: 252px;
@@ -290,6 +310,9 @@ p {
   #text1 {
     height: 25px;
     margin-top: 175px;
+    font-size: 20px;
+    padding: 0;
+    font-family: "Yeseva One", serif;
   }
   #gal2 {
     height: 252px;
@@ -297,6 +320,9 @@ p {
   #text2 {
     height: 25px;
     margin-top: 175px;
+    font-size: 20px;
+    padding: 0;
+    font-family: "Yeseva One", serif;
   }
   #gal3 {
     height: 252px;
@@ -304,11 +330,17 @@ p {
   #text3 {
     height: 25px;
     margin-top: 175px;
+    font-size: 20px;
+    padding: 0;
+    font-family: "Yeseva One", serif;
   }
 }
 @media screen and (min-width: 1920px) {
   #vault {
     height: 100px;
+    font-size: 80px;
+    font-family: "Ovo", serif;
+    padding: 0;
   }
   #gal1 {
     height: 630px;
@@ -316,6 +348,9 @@ p {
   #text1 {
     height: 63px;
     margin-top: 490px;
+    font-size: 50px;
+    padding: 0;
+    font-family: "Yeseva One", serif;
   }
   #gal2 {
     height: 630px;
@@ -323,6 +358,9 @@ p {
   #text2 {
     height: 63px;
     margin-top: 490px;
+    font-size: 50px;
+    padding: 0;
+    font-family: "Yeseva One", serif;
   }
   #gal3 {
     height: 630px;
@@ -330,6 +368,9 @@ p {
   #text3 {
     height: 63px;
     margin-top: 490px;
+    font-size: 50px;
+    padding: 0;
+    font-family: "Yeseva One", serif;
   }
 }
 #slogan {
@@ -339,6 +380,8 @@ p {
 #dedication {
   height: 256px;
   margin-top: 55px;
+  font-size: 45px;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -348,6 +391,9 @@ p {
   #dedication {
     height: 25px;
     margin-top: 23px;
+    font-family: "Ovo", serif;
+    font-size: 20px;
+    padding: 0;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -356,6 +402,9 @@ p {
   }
   #dedication {
     height: 63px;
+    font-family: "Ovo", serif;
+    font-size: 50px;
+    padding: 0;
   }
 }
 #insights {
@@ -365,6 +414,9 @@ p {
 #about {
   height: 120px;
   margin-top: 20px;
+  font-family: "Ovo", serif;
+  font-size: 50px;
+  padding: 0;
 }
 
 #myphoto {
@@ -387,6 +439,9 @@ p {
   #about {
     height: 40px;
     margin-top: 50px;
+    font-family: "Ovo", serif;
+    font-size: 40px;
+    padding: 0;
   }
   #myphoto {
     height: 311px;
@@ -407,15 +462,32 @@ p {
 @media screen and (min-width: 1920px) {
   #about {
     height: 100px;
+    font-family: "Ovo", serif;
+    font-size: 90px;
+    padding: 0;
   }
   #myphoto {
     height: 600px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
   }
   #mycap {
     height: 600px;
   }
+  #insights p {
+    font-size: 30px;
+    text-align: left;
+    padding: 0;
+    line-height: 1.5;
+  }
   #socials {
     height: 81px;
+    font-family: "Yeseva One", serif;
+    font-size: 80px;
+    padding: 0;
   }
   #icons {
     height: 100px;
