@@ -46,8 +46,18 @@
         
     }
 
+    #hero-con {
+        background-color: #F5EEE6;
+        height: 500px;
+    }
+
+    #digital {
+        color: #D35051;
+    }
+
     #hero-con h3 {
-        font-size: 50px;
+        margin-top: 50px;
+        font-size: 70px;
         text-align: left;
         font-family: 'Raleway', sans-serif;
         line-height: 1.5;
@@ -55,22 +65,34 @@
     }
 
     #hero-con p {
-        font-size: 13px;
+        font-size: 25px;
         text-align: right;
         line-height: 1;
         padding: 0;
     }
 
     #download {
-        height: 24px;
-        font-size: 13px;
+        height: 50px;
+        font-size: 20px;
         padding: 0;
+        border-radius: 15px;
+        background-color: #3C4A4C;
+        color: #F5EEE6;
+        border: none;
+        color: #F5EEE6;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
     }
 
     #meeting {
-        height: 24px;
-        font-size: 13px;
+        height: 50px;
+        font-size: 20px;
         padding: 0;
+        border-radius: 15px;
+        background-color: #3C4A4C;
+        color: #F5EEE6;
+        border: none;
+        color: #F5EEE6;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
     }
 
 }
@@ -83,6 +105,7 @@
 
     #hero-con {
         background-color: #F5EEE6;
+        height: 850px;
     }
 
     #digital {
@@ -114,6 +137,9 @@
         border-radius: 15px;
         background-color: #3C4A4C;
         color: #F5EEE6;
+        border: none;
+        color: #F5EEE6;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
     }
 
    
@@ -124,7 +150,14 @@
         border-radius: 15px;
         background-color: #3C4A4C;
         color: #F5EEE6;
+        border: none;
+        color: #F5EEE6;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
     }
+
+   
+
+    
 
     #download:hover {
         background-color: #D35051;
