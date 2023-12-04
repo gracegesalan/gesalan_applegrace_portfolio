@@ -81,6 +81,14 @@
         margin-top: 250px;
     }
 
+    #hero-con {
+        background-color: #F5EEE6;
+    }
+
+    #digital {
+        color: #D35051;
+    }
+
     #caption {
         height: 161px;
         margin-top: 494px;
@@ -103,12 +111,29 @@
         height: 62px;
         font-size: 30px;
         padding: 0;
+        border-radius: 15px;
+        background-color: #3C4A4C;
+        color: #F5EEE6;
     }
 
+   
     #meeting {
         height: 62px;
         font-size: 30px;
         padding: 0;
+        border-radius: 15px;
+        background-color: #3C4A4C;
+        color: #F5EEE6;
+    }
+
+    #download:hover {
+        background-color: #D35051;
+        color:#3C4A4C;
+    }
+
+    #meeting:hover {
+        background-color: #D35051;
+        color:#3C4A4C;
     }
 
 }
