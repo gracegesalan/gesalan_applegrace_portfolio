@@ -8,7 +8,7 @@
 #vault {
     height: 55px;
     margin-top: 40px;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Bungee', sans-serif;
     padding: 0;
 }
@@ -53,49 +53,79 @@
 
     #gallery {
         margin-top: 0px;
+        background-color: #D35051;
+
     }
 
     #vault {
         height: 40px;
-        font-size: 40px;
+        font-size: 44px;
         font-family: 'Bungee', sans-serif;
         padding: 0;
+        color: white;
+        margin-bottom: 50px;
+        margin-top: 2px;
     }
 
     #gal1 {
         height: 252px;
+        position: relative;
+        grid-row: 2/3;
+        margin-bottom: 111px;
+    }
+
+    #gal1 img {
+        border-radius: 20px;
+        box-shadow: 4px 4px 5px rgba(107, 102, 102, 0.7);
     }
     
-    #text1 {
-        height: 25px;
-        margin-top: 175px;
-        font-size: 20px;
-        padding: 0;
-        font-family: 'Yeseva One', serif;
+    .text1 {
+        font-family: 'Roboto Mono', monospace;
+        color: #F5EEE6;
+        font-size: 65px;
+        z-index: 2;
+        grid-row: 2/3;
+        margin-top: 111px;
     }
     
     #gal2 {
         height: 252px;
+        position: relative;
+        grid-row:3/4;
+        margin-bottom: 111px;
+    }
+
+    #gal2 img {
+        border-radius: 20px;
+        box-shadow: 4px 4px 5px rgba(107, 102, 102, 0.7);
     }
     
-    #text2 {
-        height: 25px;
-        margin-top: 175px;
-        font-size: 20px;
-        padding: 0;
-        font-family: 'Yeseva One', serif;
+    .text2 {
+        font-family: 'Roboto Mono', monospace;
+        color: #F5EEE6;
+        font-size: 65px;
+        z-index: 2;
+        grid-row: 3/4;
+        margin-top: 111px;
     }
 
     #gal3 {
-        height: 252px;
+        height: 370px;
+        grid-row: 4/5;
+    }
+
+    #gal3 img {
+        border-radius: 20px;
+        box-shadow: 4px 4px 5px rgba(107, 102, 102, 0.7);
     }
     
-    #text3 {
-        height: 25px;
-        margin-top: 175px;
-        font-size: 20px;
-        padding: 0;
-        font-family: 'Yeseva One', serif;
+    .text3 {
+        font-family: 'Roboto Mono', monospace;
+        color: #3C4A4C;
+        font-size: 40px;
+        z-index: 2;
+        grid-row: 4/5;
+        margin-top: 111px;
     }
     
 
@@ -106,6 +136,7 @@
     #gallery {
         margin-top: 0px;
         background-color: #D35051;
+       
     }
     
     #vault {
@@ -119,15 +150,13 @@
     }
 
     #gal1 {
-        margin-bottom: 50;
         border: 20px;
         position: relative;
         grid-row: 2/3;
-       height: 900px;
+       height: 800px;
     }
 
     #gal1 img {
-       
         border-radius: 20px;
         box-shadow: 4px 4px 5px rgba(107, 102, 102, 0.7);
     }
@@ -143,7 +172,7 @@
 
 
     #gal2 {
-        height: 900px;
+        height: 800px;
         grid-row:3/4;
     }
 
@@ -162,7 +191,7 @@
     }
 
     #gal3 {
-        height: 900px;
+        height: 920px;
         grid-row: 4/5;
     }
 
