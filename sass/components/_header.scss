@@ -16,6 +16,10 @@
     display: none;
 }
 
+#main-header #about {
+    display: none;
+}
+
 #main-header #portfolionav {
     display: none;
 }
@@ -43,6 +47,8 @@
         height: 15px;
         margin-top: 20px;
     }
+
+   
 
 
     #main-header #portfolionav  {
@@ -91,6 +97,14 @@
         margin-top: 20px;
     }
 
+    #main-header #about {
+        display: block;
+        font-size: 30px;
+        margin-top: 45px;
+        font-family: 'KoHo';
+        color: white;
+    }
+
     #main-header #portfolionav  {
         display: block;
         font-size: 30px;
@@ -110,6 +124,10 @@
     #portfolionav a {
         text-decoration: none;
         color: white;
+    }
+
+    #about a:hover {
+        color: #3C4A4C;
     }
 
     #portfolionav a:hover {

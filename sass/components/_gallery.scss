@@ -9,7 +9,7 @@
     height: 55px;
     margin-top: 40px;
     font-size: 40px;
-    font-family: 'Ovo', serif;
+    font-family: 'Bungee', sans-serif;
     padding: 0;
 }
 
@@ -58,7 +58,7 @@
     #vault {
         height: 40px;
         font-size: 40px;
-        font-family: 'Ovo', serif;
+        font-family: 'Bungee', sans-serif;
         padding: 0;
     }
 
@@ -110,11 +110,12 @@
     
     #vault {
         height: 100px;
-        font-size: 90px;
+        font-size:83px;
         color: white;
-        font-family: 'Ovo', serif;
+        font-family: 'Bungee', sans-serif;
         padding: 0;
-        margin-bottom: 1px;
+        margin-top: 0px;
+        margin-bottom: 85px;
     }
 
     #gal1 {
@@ -132,9 +133,9 @@
     }
 
     .text1 {
-        font-family: 'Yeseva One', serif;
+        font-family: 'Roboto Mono', monospace;
         color: #F5EEE6;
-        font-size: 130px;
+        font-size: 125px;
         z-index: 2;
         grid-row: 2/3;
         margin-top: 346px;
@@ -152,7 +153,7 @@
     }
 
     .text2 {
-        font-family: 'Yeseva One', serif;
+        font-family: 'Roboto Mono', monospace;
         color: #F5EEE6;
         font-size: 134px;
         z-index: 2;
@@ -171,9 +172,9 @@
     }
 
     .text3 {
-        font-family: 'Yeseva One', serif;
+        font-family: 'Roboto Mono', monospace;
         color: #3C4A4C;
-        font-size: 120px;
+        font-size: 110px;
         z-index: 2;
         grid-row: 4/5;
         margin-top: 270px;
