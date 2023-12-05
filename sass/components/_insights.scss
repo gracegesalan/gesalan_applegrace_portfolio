@@ -1,26 +1,25 @@
 @use '../abstracts' as a;
 
 #insights {
-    
-    background-color: a.$gray-color;
+    background-color: #D35051;
 }
 
 #about {
     height: 120px;
-    margin-top: 20px;
     font-family: 'Bungee', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
+    text-align: center;
     padding: 0;
     color: #F5EEE6;
 }
 
 #myphoto {
-    height: 526px;
+    height: 295px;
     font-size: 20px;
-    display: flex;
+    // display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    
 }
 
 #myphoto img {
@@ -69,9 +68,9 @@
 
     #myphoto {
         height: 311px;
-        margin-top: 20px;
+        margin-top: 70px;
         font-size: 20px;
-        display: flex;
+        // display: flex;
         justify-content: center;
         align-items: center;
         color: white;
@@ -136,7 +135,6 @@
     #myphoto {
         height: 600px;
         font-size: 30px;
-        display: flex;
         justify-content: center;
         align-items: center;
         color: white;
@@ -149,6 +147,7 @@
 
     #mycap {
         height: 600px;
+        margin-top: 20px;
     }
 
     #insights p {
