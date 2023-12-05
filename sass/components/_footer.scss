@@ -1,5 +1,9 @@
 @use '../abstracts' as a;
 
+#footer {
+    background-color: #F5EEE6;;
+}
+
 #footerlogo {
     height: 100px;
     margin-top: 75px;
@@ -25,6 +29,10 @@
 
 @media screen and (min-width:768px) {
 
+    #footer {
+        background-color: #F5EEE6;;
+    }
+
     #footerlogo {
         height: 59px;
         margin-top: 90px;
@@ -35,10 +43,14 @@
         color: white;
     }
 
+    #footerlogo img {
+        height: 50px;
+    }
+
     #footername {
         height: 43px;
         font-family: 'Montserrat', sans-serif;
-        font-size: 30px;
+        font-size: 33px;
         padding: 0;
     }
 
@@ -46,20 +58,29 @@
         height: 28px;
         font-size: 20px;
         padding: 0;
+        margin-bottom: 10px;
     }
 
 }
 
 @media screen and (min-width:1920px) {
 
+    #footer {
+        background-color: #F5EEE6;;
+    }
+
     #footerlogo {
-        height: 143px;
+        height: 90px;
         margin-top: 200px;
        font-size: 40px;
        display: flex;
         justify-content: center;
         align-items: center;
-        color: white;
+        margin-bottom: 10px;
+    }
+
+    #footerlogo img {
+        height: 90px;
     }
 
     #footername {
@@ -73,6 +94,7 @@
         height: 26px;
         font-size: 20px;
         padding: 0;
+        margin-bottom: 10px;
     }
 
 }

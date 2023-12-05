@@ -8,9 +8,10 @@
 #about {
     height: 120px;
     margin-top: 20px;
-    font-family: 'Ovo', serif;
+    font-family: 'Bungee', sans-serif;
     font-size: 50px;
     padding: 0;
+    color: #F5EEE6;
 }
 
 #myphoto {
@@ -20,6 +21,11 @@
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+#myphoto img {
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
 }
 
 #mycap {
@@ -35,9 +41,11 @@
 
 #socials {
     height: 80px;
-    font-family: 'Yeseva One', serif;
+    font-family: 'Bungee', sans-serif;
     font-size: 30px;
     padding: 0;
+    color: #F5EEE6;
+    margin-top: 0px;
 }
 
 #icons {
@@ -46,12 +54,17 @@
 
 @media screen and (min-width:768px) {
 
+    #insights {
+        background-color: #D35051;
+    }
+
     #about {
         height: 40px;
-        margin-top: 50px;
-        font-family: 'Ovo', serif;
-        font-size: 40px;
+        margin-top: 13px;
+        font-family: 'Bungee', sans-serif;
+        font-size: 30px;
         padding: 0;
+        color: #F5EEE6;
     }
 
     #myphoto {
@@ -64,9 +77,14 @@
         color: white;
     }
 
+    #myphoto img {
+        border-radius: 20px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    }
+
     #mycap {
         height: 311px;
-        margin-top: 20px;
+        margin-top: 75px;
     }
 
     #insights p {
@@ -78,20 +96,22 @@
 
     #socials {
         height: 32px;
-        margin-top: 40px;
-        font-family: 'Yeseva One', serif;
+        font-family: 'Bungee', sans-serif;
         font-size: 30px;
         padding: 0;
+        color: #F5EEE6;
+        margin-top: 0px;
+        margin-bottom: 40px;
     }
 
     #icons {
         height: 65px;
-        display:inline;
+        display:flex;
         justify-content: space-between;
     }
 
     #icons img {
-        // width: 30px;
+       
         height: 30px;
         vertical-align: middle;
         
@@ -101,10 +121,15 @@
 
 @media screen and (min-width:1920px) {
 
+    #insights {
+        background-color: #D35051;
+    }
+
     #about {
         height: 100px;
-        font-family: 'Ovo', serif;
-        font-size: 90px;
+        font-family: 'Bungee', sans-serif;
+        font-size: 80px;
+        margin-bottom: 88px;
         padding: 0;
     }
 
@@ -115,6 +140,11 @@
         justify-content: center;
         align-items: center;
         color: white;
+    }
+
+    #myphoto img {
+        border-radius: 20px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
     }
 
     #mycap {
@@ -130,19 +160,24 @@
 
     #socials {
         height: 81px;
-        font-family: 'Yeseva One', serif;
-        font-size: 80px;
+        font-family: 'Bungee', sans-serif;
+        font-size: 70px;
         padding: 0;
+        color: #F5EEE6;
+        margin-top: 0px;
+        margin-bottom: 60px;
     }
 
     #icons {
         height: 100px;
         display: flex;
         justify-content: space-between;
+        
     }
 
     #icons img {
         height: 60px;
+      
     }
 
 }

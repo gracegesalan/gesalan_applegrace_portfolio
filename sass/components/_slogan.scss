@@ -10,6 +10,7 @@
     margin-top: 55px;
     font-size: 45px;
     padding: 0;
+    font-family: 'Bungee', sans-serif;
 }
 
 @media screen and (min-width:768px) {
@@ -22,7 +23,7 @@
     #dedication {
         height: 25px;
         margin-top: 23px;
-        font-family: 'Ovo', serif;
+        font-family: 'Bungee', sans-serif;
         font-size: 20px;
         padding: 0;
     }
@@ -39,9 +40,10 @@
 
     #dedication {
         height: 63px;
-        font-family: 'Ovo', serif;
-        font-size: 50px;
+        font-family: 'Bungee', sans-serif;
+        font-size: 45px;
         padding: 0;
+        margin-top: 10px;
     }
 
 }
