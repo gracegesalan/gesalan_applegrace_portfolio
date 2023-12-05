@@ -5,7 +5,7 @@
 }
 
 #about {
-    height: 120px;
+    height: 203px;
     font-family: 'Bungee', sans-serif;
     font-size: 40px;
     text-align: center;
@@ -41,14 +41,19 @@
 #socials {
     height: 80px;
     font-family: 'Bungee', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
     padding: 0;
     color: #F5EEE6;
     margin-top: 0px;
 }
 
 #icons {
-    height: 125px;
+    height: 79px;
+}
+
+#icons a img {
+    height: 31px;
 }
 
 @media screen and (min-width:768px) {
