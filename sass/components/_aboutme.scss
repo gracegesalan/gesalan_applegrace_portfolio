@@ -1,0 +1,88 @@
+#aboutme {
+    background-color: rgb(245, 238, 230);
+    height: 700px;
+}
+
+
+#aboutheader h3 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 40px;
+}
+
+#theabout {
+    color: #D35051;
+}
+
+#theabout p {
+    color: black;
+    font-size: 15px;
+}
+
+#thephoto img {
+    border-radius: 15px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+@media screen and (min-width:768px) {
+
+    #aboutme {
+        background-color: rgb(245, 238, 230);
+        height: 550px;
+    }
+
+    #aboutheader h3 {
+        font-size: 70px;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 100px;
+        margin-bottom: 40px;
+    }
+
+    #theabout {
+        color: #D35051;
+    }
+
+    #theabout p {
+        color: black;
+        font-size: 15px;
+    }
+
+    #thephoto img {
+        border-radius: 15px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    }
+
+}
+
+@media screen and (min-width:1920px) {
+
+    #aboutme {
+        background-color: rgb(245, 238, 230);
+        height: 907px;
+    }
+
+    #aboutheader h3 {
+        font-size: 125px;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 120px;
+        margin-bottom: 40px;
+    }
+
+    #theabout {
+        color: #D35051;
+    }
+
+    #theabout p {
+        color: black;
+        font-size: 25px;
+    }
+
+    #thephoto img {
+        border-radius: 20px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    }
+}
