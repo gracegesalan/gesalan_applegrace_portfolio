@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=KoHo&family=Montserrat:wght@300&family=Ovo&family=Raleway&family=Yeseva+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+
+
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <header id="main-header" class="grid-con">
+        <h1 class="hidden">Apple Grace Gesalan</h1>
+        <img src="images/logo.svg" class="col-start-1 col-end-2 m-col-start-2 m-col-end-3 xl-col-start-2 xl-col-end-3" id="logo">
+        <div class="m-col-start-3 m-col-end-9 xl-col-start-3 xl-col-end-6" id="name">
+            <h2>Grace Gesalan | Canada</h2>
+        </div>
+        <div class="m-col-start-9 m-col-end-10 xl-col-start-9 xl-col-end-10" id="about">
+            <p><a>About</a></p>
+        </div>
+        <div class="m-col-start-10 m-col-end-11 xl-col-start-10 xl-col-end-11" id="portfolionav">
+            <p><a href="#gallery">Portfolio</a></p>
+        </div>
+        <div class="m-col-start-11 m-col-end-12 xl-col-start-11 xl-col-end-12" id="contactnav">
+            <p><a>Contact</a></p>
+        </div>
+        
+        <img src="images/burger.svg" class="col-start-4 col-end-5" id="burger">
+    </header>
+    <main>
+
+        <section class="grid-con" id="aboutme">
+            <h2 class="hidden">About Me</h2>
+            <div class="col-span-full xl-col-start-2 xl-col-end-6 m-col-start-2 m-col-end-6" id="aboutheader">
+                <h3><a id="theabout">ABOUT</a>ME</h3>
+            </div>
+            <div class="col-span-full xl-col-start-2 xl-col-end-7 m-col-start-2 m-col-end-7" id="theabout">
+                <p>
+                    Hello, I'm Apple Grace Gesalan, a dedicated 
+                    Front-End Developer and Digital Designer. I 
+                    am proud graduate of Interactive Media Design 
+                    from Fanshawe College, where I honed my 
+                    skills and passion for creating immersive 
+                    digital experiences. 
+                </p>
+                <p>
+                    Beyond the digital realm, I find joy in 
+                    capturing moments through my lens. 
+                    Photography is more than a hobby for me; 
+                    it's a way to encapsulate the beauty in 
+                    everyday life. This creative serves as a 
+                    constant source of inspiration.
+                </p>
+            </div>
+            <div class="col-span-full xl-col-start-8 xl-col-end-12 m-col-start-8 m-col-end-12" id="thephoto">
+                <img
+                sizes="(max-width: 1920px) 100vw, 1920px"
+                srcset="
+                images/grace_wl6daa_c_scale,w_325.jpg 325w,
+                images/grace_wl6daa_c_scale,w_865.jpg 865w,
+                images/grace_wl6daa_c_scale,w_1148.jpg 1148w,
+                images/grace_wl6daa_c_scale,w_1920.jpg 1920w"
+                alt="">
+            </div>
+        </section>
+        <section class="grid-con" id="thereel">
+            <h3 class="hidden">Demo Reel</h3>
+            <div class="col-span-full xl-col-start-2 xl-col-end-9 m-col-start-2 m-col-end-9" id="thereel">
+                <h3><a id="theproject">PROJECT</a>REEL</h3>
+            </div>
+            <div class="col-span-full xl-col-start-2 xl-col-end-12 m-col-start-2 m-col-end-12" id="thevideo">
+                <video controls>
+                    <source src="images/demo_reel.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+    </main>
+    <footer class="grid-con" id="footer">
+        <h2 class="hidden">Footer</h2>
+        <div class="col-start-2 col-end-4 m-col-start-6 m-col-end-8 xl-col-start-6 -xl-col-end-8" id="footerlogo">
+            <img src="images/logo.svg"></image>
+        </div>
+        <div class="col-span-full m-col-start-5 m-col-end-10 xl-col-sta6rt- xl-col-end-9" id="footername">Grace Gesalan</div>
+        <div class="col-span-full m-col-start-2 m-col-end-12 xl-col-start-5 xl-col-end-9" id="footerrights">© 2023All Rights Reserved. Design & Coded with Caffeine and Beats</div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

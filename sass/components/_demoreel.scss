@@ -1,0 +1,77 @@
+
+
+#thereel {
+    background-color: #d35051;
+}
+
+#thereel h3 {
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#theproject {
+    color: rgb(245, 238, 230);
+}
+
+#thevideo video {
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width:768px) {
+    #thereel {
+        background-color: #d35051;
+    }
+
+    #thereel h3 {
+        font-size: 50px;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    #theproject {
+        color: rgb(245, 238, 230);
+    }
+
+    #thevideo video {
+        border-radius: 15px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:1920px) {
+    #thereel {
+        background-color: #d35051;
+    }
+
+    #thereel h3 {
+        font-size: 125px;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 40px;
+    }
+
+    #theproject {
+        color: rgb(245, 238, 230);
+    }
+
+    #thevideo {
+        margin-top: 0px;
+        grid-row: 2/3;
+        
+    }
+
+    #thevideo video {
+        border-radius: 20px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+    }
+}
