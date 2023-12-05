@@ -54,11 +54,15 @@
 
 @media screen and (min-width:768px) {
 
+    #insights {
+        background-color: #D35051;
+    }
+
     #about {
         height: 40px;
-        margin-top: 50px;
+        margin-top: 13px;
         font-family: 'Bungee', sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         padding: 0;
         color: #F5EEE6;
     }
@@ -80,7 +84,7 @@
 
     #mycap {
         height: 311px;
-        margin-top: 20px;
+        margin-top: 75px;
     }
 
     #insights p {
@@ -92,22 +96,22 @@
 
     #socials {
         height: 32px;
-        margin-top: 40px;
         font-family: 'Bungee', sans-serif;
         font-size: 30px;
         padding: 0;
         color: #F5EEE6;
         margin-top: 0px;
+        margin-bottom: 40px;
     }
 
     #icons {
         height: 65px;
-        display:inline;
+        display:flex;
         justify-content: space-between;
     }
 
     #icons img {
-        // width: 30px;
+       
         height: 30px;
         vertical-align: middle;
         
