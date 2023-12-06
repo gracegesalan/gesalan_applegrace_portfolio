@@ -12,7 +12,7 @@ function scrollLink(e) {
     gsap.to(window, {duration: 1, scrollTo:{y:`${selectedLink}`, offsetY:100 }});
 }
 
-gsap.to("#slogan", 3,
+gsap.to("#dedication", 3,
 {scrollTrigger:{
     toggleActions: "play pause resume reset"
 }, x:100, ease: Bounce.easeOut
