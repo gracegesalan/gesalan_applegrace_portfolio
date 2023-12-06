@@ -13,7 +13,8 @@
 
 #hero-con {
     background-color: #F5EEE6;
-    
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.294) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+    background-size: 20px 20px;
 }
 
 #digital {
@@ -73,6 +74,8 @@
     #hero-con {
         background-color: #F5EEE6;
         height: 500px;
+        background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.294) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+        background-size: 20px 20px;
     }
 
     #digital {
@@ -122,6 +125,22 @@
 }
 
 @media screen and (min-width:1920px) {
+
+    body {
+        cursor: crosshair;
+    }
+
+    body::before {
+        content: '';
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+    }
+
     #position {
         height: 406px;
         margin-top: 250px;
@@ -129,9 +148,12 @@
 
     #hero-con {
         background-color: #F5EEE6;
-        height: 850px;
+        height: 845px;
+        background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.294) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+        background-size: 20px 20px;
     }
 
+   
     #digital {
         color: #D35051;
     }
