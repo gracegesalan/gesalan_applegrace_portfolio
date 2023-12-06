@@ -1,0 +1,185 @@
+
+
+#connect {
+    background-color: #F5EEE6;
+    height: 200px;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.294) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+    background-size: 20px 20px;
+}
+
+#thelink h3 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 80px;
+}
+
+#thelink a {
+    color: #D35051;
+}
+
+#fillup {
+    background-color: #d35051;
+    height: 300px;
+}
+
+#thename {
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+#theemail {
+    border-radius: 10px;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+#message {
+    border-radius: 10px;
+    width: 100%;
+    height: 90px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+#fire {
+    height: 30px;
+    border-radius: 15px;
+    color: #F5EEE6;
+    background-color: #3C4A4C;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+@media screen and (min-width:768px) {
+
+    #connect {
+        background-color: #F5EEE6;
+        height: 250px;
+        background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.294) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+        background-size: 20px 20px;
+    }
+
+    #thelink h3 {
+        font-size: 80px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 80px;
+    }
+
+    #thelink a {
+        color: #D35051;
+    }
+
+    #fillup {
+        background-color: #d35051;
+        height: 350px;
+    }
+
+    #thename {
+        border-radius: 10px;
+        width: 100%;
+        height: 30px;
+        margin-top: 30px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    #theemail {
+        border-radius: 10px;
+        width: 100%;
+        height: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    #message {
+        border-radius: 10px;
+        width: 100%;
+        height: 150px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    #fire {
+        height: 40px;
+        border-radius: 15px;
+        color: #F5EEE6;
+        background-color: #3C4A4C;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+        margin-top: 10px;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (min-width:1920px) {
+    #connect {
+        background-color: #F5EEE6;
+        height: 300px;
+        background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.294) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+        background-size: 20px 20px;
+    }
+
+    #thelink h3 {
+        font-size: 130px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        margin-top: 80px;
+    }
+
+    #thelink a {
+        color: #D35051;
+    }
+
+    #fillup {
+        background-color: #d35051;
+        height: 500px;
+    }
+
+    #thename {
+        border-radius: 10px;
+        width: 100%;
+        height: 40px;
+        margin-top: 70px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    #theemail {
+        border-radius: 10px;
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    #message {
+        border-radius: 10px;
+        width: 100%;
+        height: 200px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    #fire {
+        height: 62px;
+        border-radius: 15px;
+        color: #F5EEE6;
+        background-color: #3C4A4C;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #fire:hover {
+        background-color: #F5EEE6;
+        color: #3C4A4C;
+    }
+}
