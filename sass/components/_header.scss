@@ -72,6 +72,10 @@
         color: white;
     }
 
+    #contactlink {
+        text-decoration: none;
+        color: white;
+    }
     
 
     #main-header #contactnav {
@@ -80,6 +84,7 @@
         margin-top: 25px;
         font-family: 'KoHo';
         color: white;
+        text-decoration: none;
     }
 
     
@@ -126,7 +131,7 @@
         font-size: 30px;
         margin-top: 45px;
         font-family: 'KoHo';
-        color: white;
+        
     }
 
     #portfolionav a {
@@ -134,7 +139,14 @@
         color: white;
     }
 
+   
+
     #aboutlink {
+        text-decoration: none;
+        color: white;
+    }
+
+    #contactlink {
         text-decoration: none;
         color: white;
     }
