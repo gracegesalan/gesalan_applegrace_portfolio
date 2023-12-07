@@ -74,4 +74,43 @@
         box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
         margin-bottom: 20px;
     }
+
+    // player custom
+
+    .videocontrols {
+        // position: absolute;
+        right: 0;
+        left: 0;
+        padding: 20px;
+        bottom: 0px;
+        transition: all 0.2s ease;
+        display: flex;
+    }
+
+    .videocontrols.hide {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    button {
+        padding: 0px;
+        border: 0px;
+        background-color: transparent;
+    }
+
+    .fa, .fa-solid {
+        color: white;
+        font-size: 28px;
+        margin-left: 20px;
+    
+    }
+    
+    .fa-volumeup {
+        margin-left: auto;
+    
+    }
+    
+    .fa-stop-circle-o {
+        margin-right:  20px;
+    }
 }
