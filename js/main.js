@@ -5,6 +5,9 @@ gsap.registerPlugin(ScrollToPlugin);
 
 const navLinks = document.querySelectorAll("#main-header #portfolionav p a");
 
+const burgerIcon = document.getElementById('burger');
+const navItems = document.getElementById('navItems');
+
 function scrollLink(e) {
     e.preventDefault();
     console.log(e.currentTarget.hash);
@@ -21,6 +24,11 @@ gsap.to("#dedication", 3,
 navLinks.forEach((link) => {
     link.addEventListener("click", scrollLink);
 })
+
+burgerIcon.addEventListener('click', function () {
+    // Toggle the visibility of the navigation items
+    navItems.style.display = (navItems.style.display === 'none' || navItems.style.display === '') ? 'block' : 'none';
+});
 
 
 
