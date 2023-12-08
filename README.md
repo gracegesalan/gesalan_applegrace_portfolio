@@ -1,6 +1,6 @@
 # Apple Grace Gesalan Portfolio
 
-![alt text](read_me.jpg "Grace Gesalan Portfolio")
+![alt text](images/read_me.jpg "Grace Gesalan Portfolio")
 
 Welcome to my portfolio website! This will serve as a window into my creative world, offering insights into my background,  creative journey, and showcasing my best work. The website consists of three pages:
 
