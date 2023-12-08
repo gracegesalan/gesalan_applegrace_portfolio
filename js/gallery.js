@@ -1,4 +1,4 @@
-
+(() => {
 
 let galleryinfo = document.querySelectorAll(".projects a"),
 
@@ -32,5 +32,5 @@ let projects = {
         title: "Swerve Rebrand",
     }
 }
-
+})();
     
