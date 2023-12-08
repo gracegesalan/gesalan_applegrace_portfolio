@@ -1,0 +1,206 @@
+
+#casehero {
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    
+   }
+   #casehero h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #006D8C;
+   }
+
+   #sabani {
+    color: black;
+   }
+
+   #casestudy {
+    background-image: url('../images/background.jpg');
+   }
+
+   #saba1 {
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 80px;
+   }
+   
+   #objective {
+   margin-top: 60px;
+    
+   }
+
+   #objective h3 {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 40px;
+   }
+
+   #objective p {
+    color: #F5EEE6;
+    font-size: 15px;
+    line-height: normal;
+   }
+
+   #approach {
+    margin-top: 50px;
+   }
+
+   #approach h3 {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 40px;
+   }
+
+   #approach p {
+    color: #F5EEE6;
+    font-size: 15px;
+    line-height: normal;
+   }
+
+   #saba2 {
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+
+@media screen and (min-width:768px) {
+    #casehero {
+        height: 200px;
+        background-color: rgb(255, 255, 255);
+        
+       }
+       #casehero h3 {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 50px;
+        margin-top: 60px;
+        color: #006D8C;
+       }
+    
+       #sabani {
+        color: black;
+       }
+    
+       #casestudy {
+        background-image: url('../images/background.jpg');
+       }
+    
+       #saba1 {
+        border-radius: 20px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+        margin-top: 80px;
+       }
+       
+       #objective {
+       margin-top: 150px;
+        
+       }
+    
+       #objective h3 {
+        font-family: 'Raleway', sans-serif;
+        color: black;
+        font-size: 40px;
+       }
+    
+       #objective p {
+        color: #F5EEE6;
+        font-size: 15px;
+        line-height: normal;
+       }
+    
+       #approach {
+        margin-top: 100px;
+       }
+    
+       #approach h3 {
+        font-family: 'Raleway', sans-serif;
+        color: black;
+        font-size: 40px;
+       }
+    
+       #approach p {
+        color: #F5EEE6;
+        font-size: 15px;
+        line-height: normal;
+       }
+    
+       #saba2 {
+        border-radius: 20px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+        margin-top: 20px;
+        margin-bottom: 20px;
+       }
+}
+
+@media screen and (min-width:1920px) {
+   #casehero {
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    
+   }
+   #casehero h3 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 50px;
+    color: #006D8C;
+   }
+
+   #sabani {
+    color: black;
+   }
+
+   #casestudy {
+    background-image: url('../images/background.jpg');
+   }
+
+   #saba1 {
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+   }
+   
+   #objective {
+   margin-top: 300px;
+    
+   }
+
+   #objective h3 {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 60px;
+   }
+
+   #objective p {
+    color: #F5EEE6;
+    font-size: 20px;
+    line-height: normal;
+   }
+
+   #approach {
+    margin-top: 100px;
+   }
+
+   #approach h3 {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 60px;
+   }
+
+   #approach p {
+    color: #F5EEE6;
+    font-size: 20px;
+    line-height: normal;
+   }
+
+   #saba2 {
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+}

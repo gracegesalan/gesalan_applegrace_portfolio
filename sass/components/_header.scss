@@ -3,13 +3,14 @@
 
 
 #main-header {
-    background-color: #D35051;
+    background-color: rgba(0, 0, 0, 0.945);
     height: 76px;
 }
 
 #main-header #logo {
     height: 48px;
     margin-top: 15px;
+    filter: drop-shadow(1px 2px 4px rgb(168, 168, 168));
 }
 
  #name {
@@ -33,15 +34,6 @@
     margin-top: 20px;
 }
 
-
-// burger nav
-
-// #burger {
-//     background-image: url('../images/burger.svg');
-//     background-size: cover;
-//     background-repeat: no-repeat;
-// }
-
 .menuItem {
     display: block;
     margin: 2rem 4rem;
@@ -61,7 +53,7 @@
     right: 1rem;
     padding: 4px;
     // border: black solid 1px;
-    background: #D35051;
+    background: rgba(0, 0, 0, 0.945);
     cursor: pointer;
     height: 30px;
     width: 40px;
@@ -76,7 +68,7 @@
   }
   
   .menu {
-    position: fixed;
+    position: absolute;
     transform: translateY(-100%);
     transition: transform 0.2s;
     top: 0;
@@ -84,7 +76,7 @@
     right: 0;
     bottom: 0;
     z-index: 99;
-    background: #D35051;
+    background: rgba(0, 0, 0, 0.945);
     color: white;
     list-style: none;
     padding-top: 4rem;
