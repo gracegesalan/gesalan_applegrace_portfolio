@@ -1,7 +1,7 @@
 @use '../abstracts' as a;
 
 #footer {
-    background-color: #F5EEE6;;
+    background-color: white;
 }
 
 #footerlogo {
@@ -36,7 +36,7 @@
 @media screen and (min-width:768px) {
 
     #footer {
-        background-color: #F5EEE6;;
+        background-color: white;;
     }
 
     #footerlogo {
@@ -72,7 +72,7 @@
 @media screen and (min-width:1920px) {
 
     #footer {
-        background-color: #F5EEE6;;
+        background-color: white;;
     }
 
     #footerlogo {
