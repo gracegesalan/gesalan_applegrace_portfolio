@@ -34,8 +34,76 @@
 }
 
 
+// burger nav
+
+// #burger {
+//     background-image: url('../images/burger.svg');
+//     background-size: cover;
+//     background-repeat: no-repeat;
+// }
+
+.menuItem {
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menuItem:hover {
+    text-decoration: underline;
+  }
+  
+  .hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    // border: black solid 1px;
+    background: #D35051;
+    cursor: pointer;
+    height: 30px;
+    width: 40px;
+    background-image: url('../images/burger.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+  }
+  
+  .closeIcon {
+    display: none;
+  }
+  
+  .menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #D35051;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+    margin-top: 0px;
+  }
+
+  .menu a {
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  
+  .showMenu {
+    transform: translateY(0);
+  }
 
 
+.hamburger.rotated {
+    transform: rotate(90deg);
+}
 
 @media screen and (min-width:768px) {
 
