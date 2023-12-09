@@ -12,13 +12,12 @@
 
 
 #hero-con {
-    background-color: #F5EEE6;
-    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.294) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
-    background-size: 20px 20px;
+    background-color: white;
+    
 }
 
 #digital {
-    color: #D35051;
+    color: #006D8C;
 }
 
 #hero-con h3 {
@@ -44,6 +43,7 @@
     border: none;
     color: #F5EEE6;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
 
 #meeting {
@@ -56,6 +56,7 @@
     border: none;
     color: #F5EEE6;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
 
 @media screen and (min-width:768px) {
@@ -72,14 +73,13 @@
     }
 
     #hero-con {
-        background-color: #F5EEE6;
+        background-color: white;
         height: 500px;
-        background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.294) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
-        background-size: 20px 20px;
+       
     }
 
     #digital {
-        color: #D35051;
+        color: #006D8C;
     }
 
     #hero-con h3 {
@@ -100,25 +100,25 @@
 
     #download {
         height: 50px;
-        font-size: 20px;
+        font-size: 18px;
         padding: 0;
         border-radius: 15px;
         background-color: #3C4A4C;
         color: #F5EEE6;
         border: none;
-        color: #F5EEE6;
+        
         box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
     }
 
     #meeting {
         height: 50px;
-        font-size: 20px;
+        font-size: 18px;
         padding: 0;
         border-radius: 15px;
         background-color: #3C4A4C;
         color: #F5EEE6;
         border: none;
-        color: #F5EEE6;
+        
         box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
     }
 
@@ -147,7 +147,7 @@
     }
 
     #hero-con {
-        background-color: #F5EEE6;
+        background-color: white;
         height: 845px;
         background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.294) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
         background-size: 20px 20px;
@@ -155,7 +155,7 @@
 
    
     #digital {
-        color: #D35051;
+        color: #006D8C;
     }
 
     #caption {
@@ -182,9 +182,9 @@
         padding: 0;
         border-radius: 15px;
         background-color: #3C4A4C;
-        color: #F5EEE6;
+        color: white;
         border: none;
-        color: #F5EEE6;
+        
         box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
     }
 
@@ -195,9 +195,9 @@
         padding: 0;
         border-radius: 15px;
         background-color: #3C4A4C;
-        color: #F5EEE6;
+        color: white;
         border: none;
-        color: #F5EEE6;
+        
         box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2);
     }
 
@@ -206,13 +206,13 @@
     
 
     #download:hover {
-        background-color: #D35051;
-        color:#3C4A4C;
+        color: #006D8C;
+        background-color:white;
     }
 
     #meeting:hover {
-        background-color: #D35051;
-        color:#3C4A4C;
+        color: #006D8C;
+        background-color:white;
     }
 
 }

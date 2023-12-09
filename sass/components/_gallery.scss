@@ -1,7 +1,7 @@
 @use '../abstracts' as a;
 
 #gallery {
-    background-color: #D35051;
+    background-image: url('../images/background.jpg');
     margin-top: 0px;
 }
 
@@ -31,11 +31,10 @@
     font-size: 30px;
     z-index: 2;
     grid-row: 2/3;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #gal2 {
-   
     position: relative;
     grid-row: 3/4;
 }
@@ -52,7 +51,7 @@
     font-size: 30px;
     z-index: 2;
     grid-row: 3/4;
-    margin-top: 30px;
+    margin-top: 55px;
 }
 
 #gal3 {
@@ -68,23 +67,25 @@
 
 .text3 {
     font-family: 'Roboto Mono', monospace;
-    color: #3C4A4C;
+    color: white;
     text-align: center;
     font-size: 25px;
     z-index: 2;
     grid-row: 4/5;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .projects {
     opacity: .5;
 }
 
+
+
 @media screen and (min-width:768px) {
 
     #gallery {
         margin-top: 0px;
-        background-color: #D35051;
+        background-image: url('../images/background.jpg');
 
     }
 
@@ -141,7 +142,7 @@
     }
 
     #gal3 {
-        
+        margin-bottom: 20px;
         grid-row: 4/5;
     }
 
@@ -168,6 +169,8 @@
     }
 
     // Lightbox
+
+    
 
     .lightbox {
         width: 100vw;
@@ -251,7 +254,7 @@
 
     #gallery {
         margin-top: 0px;
-        background-color: #D35051;
+        background-image: url('../images/background.jpg');
        
     }
     
@@ -308,7 +311,7 @@
     }
 
     #gal3 {
-       
+       margin-bottom: 20px;
         grid-row: 4/5;
     }
 
@@ -344,6 +347,8 @@
 
 
     // Lightbox
+
+    
 
     .lightbox {
         width: 100vw;
